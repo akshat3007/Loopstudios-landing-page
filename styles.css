@@ -1,0 +1,299 @@
+body{
+  overflow-x: hidden;
+}
+.navbar{
+  font-family: 'Dosis', sans-serif;
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+.name{
+  position: absolute;
+  left:5px;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #fff;
+}
+#title{
+  /* background-color: "black"; */
+  /* background-color: #ff4c68; */
+  /* background-image: url(images/image-hero.jpg); */
+  /* background-image: radial-gradient( circle 1294px at -15.5% 23.8%,  rgba(255,206,149,1) 0%, rgba(247,92,92,1) 44.9%, rgba(108,0,96,0.97) 93.8% ); */
+  padding: 3% 8%;
+  color: #fff;
+  background-image: url("https://i.ibb.co/NtJYDDL/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 300px;
+}
+.text{
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 80px;
+  color: #fff;
+  /* outline: 5px solid white; */
+
+}
+.border{
+  border: 2px solid #fff;
+  border-color: #fff;
+  padding: 20px 180px 120px 0px;
+  display: inline;
+}
+.navbar-nav{
+  color: #ffffff;
+}
+/* .background{
+  background-repeat: no-repeat;
+} */
+.navbar .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #fff;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 22%;
+}
+.image-int{
+  padding-top: 150px;
+  padding-left: 120px;
+  padding-bottom: 150px;
+  display: grid;
+}
+.midpart{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.vr-text{
+  font-weight: 100;
+  padding-bottom: 1rem;
+  font-size: 3.8rem;
+}
+.para-vr{
+  color: 	#A9A9A9;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 10px;
+}
+.interactive-text{
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-left: 100px;
+  position: absolute;
+  width: 800px;
+  display: inline-block;
+  right: 20px;
+  bottom: 140px;
+  background-color: #fff;
+}
+.creations{
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+.creations-text{
+  font-weight: 100;
+  display: inline-block;
+}
+.button {
+  position: absolute;
+  right: 300px;
+  padding: 5px 35px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color:	#000000;
+  color: white;
+}
+.images-creations{
+  padding-top: 50px;
+  position: relative;
+  left: 20px;
+}
+.image1-text-over{
+  position: absolute;
+  bottom: 25px;
+  color: #fff;
+  font-weight: 100;
+  width: 20px;
+  left: 40px;
+}
+.image2-text-over{
+  position: absolute;
+  bottom: 25px;
+  color: #fff;
+  font-weight: 100;
+  width: 20px;
+  left: 320px;
+}
+.image3-text-over{
+  position: absolute;
+  bottom: 25px;
+  color: #fff;
+  font-weight: 100;
+  width: 150px;
+  left: 600px;
+}
+.image4-text-over{
+  position: absolute;
+  bottom: 25px;
+  color: #fff;
+  font-weight: 100;
+  width: 100px;
+  left: 880px;
+}
+.image5-text-over{
+  position: absolute;
+  bottom: 25px;
+  color: #fff;
+  font-weight: 100;
+  width: 150px;
+  left: 40px;
+}
+.image6-text-over{
+  position: absolute;
+  bottom: 25px;
+  color: #fff;
+  font-weight: 100;
+  width: 20px;
+  left: 320px;
+}
+.image7-text-over{
+  position: absolute;
+  bottom: 25px;
+  color: #fff;
+  font-weight: 100;
+  width: 150px;
+  left: 600px;
+}
+.image8-text-over{
+  position: absolute;
+  bottom: 25px;
+  color: #fff;
+  font-weight: 100;
+  width: 150px;
+  left: 880px;
+}
+.card-image{
+  padding-right: 20px;
+  filter: brightness(75%);
+}
+.card-image:hover {
+background-color: #00000;
+opacity: 0.6;
+transition: all .2s ease-in-out;
+}
+.footer{
+  /* position: relative; */
+  background-color: #000000;
+  color: #fff;
+  padding-left: 100px;
+}
+li{
+  display: inline-block;
+  color: #fff;
+}
+.footer-brand{
+  padding-top: 30px;
+  display: inline-block;
+  background-color: #000000;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+}
+.footer-items{
+  color: #fff;
+  padding-right: 20px;
+  position: relative;
+  left: -40px;
+  padding-top: 100px;
+}
+ul{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  /* display: inline-block; */
+}
+.footer-items:hover {
+  color: #fff;
+}
+.footer-items{
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.footer-items::after {
+  position: absolute;
+  bottom: -10px;
+  left: -20px;
+  right: 0;
+  margin: auto;
+  background-color: #fff;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all 0.5s;
+}
+a:hover{
+  text-decoration: none;
+}
+.footer-items:hover::after {
+  width: 35%;
+}
+.icons{
+  position: relative;
+  left: 730px;
+  top: 0px;
+  padding-right: 15px;
+}
+.copyright{
+  display: inline-block;
+  position: relative;
+  left: 830px;
+  bottom: 50px;
+  color: 	#696969;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/* .icons:hover {
+  color: #fff;
+}
+.icons {
+  position: relative;
+}
+.icons::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #fff;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all 0.5s;
+}
+
+.icons:hover::after {
+  width: 22%;
+} */
