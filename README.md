@@ -7,7 +7,6 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -20,11 +19,6 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 ### Screenshot
 
   Screenshots of the project made can be seen in the "screenshots" folder of the repository.
-  
-### Links
-
- live site URL here](https://your-live-site-url.com)
-
 
 ### Built with
 
