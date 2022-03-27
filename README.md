@@ -12,11 +12,14 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-- [Author](#author)
 
 ### Overview
 
   The challenge was to replicate a design of loopstudios landing page with several hovering effects and content.
+  
+### Screenshot
+
+  Screenshots of the project made can be seen in the "screenshots" folder of the repository.
   
 ### Links
 
@@ -39,9 +42,4 @@ Theoretical concepts were boosted by doing this project, i learned about positio
 ### Continued development
 
 I need to work on the responsiveness of the design and applying reactjs. 
-
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
 
